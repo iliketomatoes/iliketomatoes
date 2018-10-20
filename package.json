@@ -1,0 +1,49 @@
+{
+  "name": "iliketomatoes",
+  "version": "0.1.0",
+  "description": "Giancarlo Soverini’s personal website",
+  "author": "Giancarlo Soverini <giancarlosoverini@gmail.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iliketomatoes/iliketomatoes"
+  },
+  "keywords": [
+    "iliketomatoes"
+  ],
+  "license": "AGPL-3.0",
+  "scripts": {
+    "clean-dist": "rimraf dist",
+    "clean-coverage": "rimraf scr/tests-reports",
+    "start": "parcel src/index.html",
+    "lint": "eslint src/scripts/*",
+    "build": "parcel build src/index.html --public-url ./ --out-dir dist",
+    "dist": "npm run clean-dist && npm run build",
+    "test": "jest --watchAll",
+    "test-report": "npm run clean-coverage && jest --coverage"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.2.4",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.7.2",
+    "postcss-modules": "^1.1.0",
+    "posthtml-img-autosize": "^0.1.1",
+    "rimraf": "^2.6.2",
+    "typescript": "^2.7.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^22.2.2",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^22.2.2",
+    "parcel-bundler": "^1.9.7"
+  },
+  "jest": {
+    "coverageDirectory": "src/tests-reports",
+    "coverageReporters": [
+      "html",
+      "text"
+    ]
+  }
+}
