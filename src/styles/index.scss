@@ -1,6 +1,4 @@
-$myColor: #7b72f0;
-
-body {
-  background-color: $myColor;
-  color: wheat;
-}
+@import './colors';
+@import './fonts';
+@import './types';
+@import './base';

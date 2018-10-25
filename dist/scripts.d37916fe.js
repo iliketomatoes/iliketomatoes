@@ -169,10 +169,12 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-module.exports = {};
+module.exports = {
+        "ilk-label": "_ilk-label_10py4_17"
+};
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"scripts/components/footer.js":[function(require,module,exports) {
 module.exports = {
-  footer: "\n    <footer>\n      <p>This is my Footer</p>\n    </footer>"
+	footer: "\n\t\t<footer>\n\t\t\t<p>This is my Footer</p>\n\t\t</footer>"
 };
 },{}],"scripts/components/header.js":[function(require,module,exports) {
 "use strict";
@@ -232,7 +234,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '54147' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '55785' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 

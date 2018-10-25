@@ -1,0 +1,10 @@
+html {
+	font-size: 20px;
+}
+
+body {
+	background-color: map-get($ilt-dark-greys, 400);
+	color: $body-font-color;
+	font-family: 'VT323', monospace;
+	padding: 16px;
+}
