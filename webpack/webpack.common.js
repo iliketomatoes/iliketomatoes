@@ -47,6 +47,15 @@ module.exports = {
           }
         }
       },
+      {
+        test: /CNAME$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: 'CNAME',
+          }
+        }
+      },
     ]
   }
 };
