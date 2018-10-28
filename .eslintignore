@@ -1,2 +1,4 @@
 src/tests/*.js
 dist/**/*.js
+public/**/*.js
+webpack/**/*.js

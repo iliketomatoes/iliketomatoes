@@ -1,0 +1,15 @@
+$body-font-color: map-get($ilt-greens, 400);
+$link-font-color: map-get($ilt-blues, 400);
+
+// Links
+.ilk-link {
+	color: $link-font-color;
+}
+
+// Labels
+
+.ilk-label {
+	color: rgba($body-font-color, .8);
+	font-style: italic;
+	margin-right: 6px;
+}

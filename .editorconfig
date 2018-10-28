@@ -14,11 +14,11 @@ insert_final_newline = true
 [Makefile]
 indent_style = tab
 
-[*.{json}]
+[*.{json, js}]
 indent_style = space
 indent_size = 2
 
-[*.{js,scss,html}]
+[*.{scss,html}]
 indent_style = tab
 indent_size = 2
 
