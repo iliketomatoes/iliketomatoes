@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "Giancarlo Soverini’s personal website",
   "author": "Giancarlo Soverini <giancarlosoverini@gmail.com>",
-  "homepage" : "https://iliketomatoes.github.io/iliketomatoes/build",
   "main": "index.js",
   "repository": {
     "type": "git",
