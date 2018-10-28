@@ -8,7 +8,7 @@ module.exports = {
     app: Path.resolve(__dirname, '../src/scripts/index.js')
   },
   output: {
-    path: Path.join(__dirname, '../build'),
+    path: Path.join(__dirname, '../docs'),
     filename: 'js/[name].js',
   },
   optimization: {
@@ -18,7 +18,7 @@ module.exports = {
     },
   },
   plugins: [
-    new CleanWebpackPlugin(['build'], { root: Path.resolve(__dirname, '..') }),
+    new CleanWebpackPlugin(['docs'], { root: Path.resolve(__dirname, '..') }),
     new CopyWebpackPlugin([
       { from: Path.resolve(__dirname, '../public'), to: 'public' },
     ]),
