@@ -4,6 +4,7 @@
   "description": "Giancarlo Soverini’s personal website",
   "author": "Giancarlo Soverini <giancarlosoverini@gmail.com>",
   "main": "index.js",
+  "homepage" : "https://iliketomatoes.github.io/iliketomatoes/build",
   "repository": {
     "type": "git",
     "url": "https://github.com/iliketomatoes/iliketomatoes"
