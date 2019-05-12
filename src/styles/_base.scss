@@ -13,4 +13,20 @@ body {
 	font-size: 1.3rem;
 	line-height: 1.4;
 	margin-bottom: 16px;
+
+	&--old-job {
+		text-decoration: line-through,
+	}
+}
+
+// Links
+.ilk-link {
+	color: $link-font-color;
+}
+
+// Labels
+.ilk-label {
+	color: rgba($body-font-color, .8);
+	font-style: italic;
+	margin-right: 6px;
 }
